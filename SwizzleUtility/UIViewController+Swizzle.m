@@ -24,7 +24,8 @@
  */
 - (void)ss_viewWillAppear:(BOOL)animated {
     [self ss_viewWillAppear:animated];
-    NSLog(@"viewWillAppear: %@", self);
+    NSLog(@"<%s: %d> %s", [[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, __func__);
+
 }
 
 @end

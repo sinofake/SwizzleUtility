@@ -21,7 +21,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    NSLog(@"<%s: %d>", [[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__);
+    NSLog(@"<%s: %d>  %s", [[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, __func__);
 }
 
 - (void)didReceiveMemoryWarning {
