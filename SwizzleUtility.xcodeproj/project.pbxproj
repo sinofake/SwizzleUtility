@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00D443AA1B0F35380063DDD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D443A91B0F35380063DDD8 /* main.m */; };
+		00D443AD1B0F35380063DDD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D443AC1B0F35380063DDD8 /* AppDelegate.m */; };
+		00D443B01B0F35380063DDD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D443AF1B0F35380063DDD8 /* ViewController.m */; };
+		00D443B31B0F35380063DDD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D443B11B0F35380063DDD8 /* Main.storyboard */; };
+		00D443B51B0F35380063DDD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D443B41B0F35380063DDD8 /* Images.xcassets */; };
+		00D443B81B0F35380063DDD8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00D443B61B0F35380063DDD8 /* LaunchScreen.xib */; };
+		00D443C41B0F35380063DDD8 /* SwizzleUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D443C31B0F35380063DDD8 /* SwizzleUtilityTests.m */; };
+		00D443CF1B0F35690063DDD8 /* SwizzleUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D443CE1B0F35690063DDD8 /* SwizzleUtility.m */; };
+		00D443D21B0F35C20063DDD8 /* UIViewController+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D443D11B0F35C20063DDD8 /* UIViewController+Swizzle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00D443BE1B0F35380063DDD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00D4439C1B0F35380063DDD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00D443A31B0F35380063DDD8;
+			remoteInfo = SwizzleUtility;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D443A41B0F35380063DDD8 /* SwizzleUtility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwizzleUtility.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00D443A81B0F35380063DDD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00D443A91B0F35380063DDD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00D443AB1B0F35380063DDD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00D443AC1B0F35380063DDD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00D443AE1B0F35380063DDD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00D443AF1B0F35380063DDD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00D443B21B0F35380063DDD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00D443B41B0F35380063DDD8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00D443B71B0F35380063DDD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		00D443BD1B0F35380063DDD8 /* SwizzleUtilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwizzleUtilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00D443C21B0F35380063DDD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00D443C31B0F35380063DDD8 /* SwizzleUtilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwizzleUtilityTests.m; sourceTree = "<group>"; };
+		00D443CD1B0F35690063DDD8 /* SwizzleUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzleUtility.h; sourceTree = "<group>"; };
+		00D443CE1B0F35690063DDD8 /* SwizzleUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwizzleUtility.m; sourceTree = "<group>"; };
+		00D443D01B0F35C20063DDD8 /* UIViewController+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzle.h"; sourceTree = "<group>"; };
+		00D443D11B0F35C20063DDD8 /* UIViewController+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzle.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00D443A11B0F35380063DDD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D443BA1B0F35380063DDD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00D4439B1B0F35380063DDD8 = {
+			isa = PBXGroup;
+			children = (
+				00D443A61B0F35380063DDD8 /* SwizzleUtility */,
+				00D443C01B0F35380063DDD8 /* SwizzleUtilityTests */,
+				00D443A51B0F35380063DDD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00D443A51B0F35380063DDD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00D443A41B0F35380063DDD8 /* SwizzleUtility.app */,
+				00D443BD1B0F35380063DDD8 /* SwizzleUtilityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00D443A61B0F35380063DDD8 /* SwizzleUtility */ = {
+			isa = PBXGroup;
+			children = (
+				00D443CD1B0F35690063DDD8 /* SwizzleUtility.h */,
+				00D443CE1B0F35690063DDD8 /* SwizzleUtility.m */,
+				00D443AB1B0F35380063DDD8 /* AppDelegate.h */,
+				00D443AC1B0F35380063DDD8 /* AppDelegate.m */,
+				00D443AE1B0F35380063DDD8 /* ViewController.h */,
+				00D443AF1B0F35380063DDD8 /* ViewController.m */,
+				00D443D01B0F35C20063DDD8 /* UIViewController+Swizzle.h */,
+				00D443D11B0F35C20063DDD8 /* UIViewController+Swizzle.m */,
+				00D443B11B0F35380063DDD8 /* Main.storyboard */,
+				00D443B41B0F35380063DDD8 /* Images.xcassets */,
+				00D443B61B0F35380063DDD8 /* LaunchScreen.xib */,
+				00D443A71B0F35380063DDD8 /* Supporting Files */,
+			);
+			path = SwizzleUtility;
+			sourceTree = "<group>";
+		};
+		00D443A71B0F35380063DDD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00D443A81B0F35380063DDD8 /* Info.plist */,
+				00D443A91B0F35380063DDD8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00D443C01B0F35380063DDD8 /* SwizzleUtilityTests */ = {
+			isa = PBXGroup;
+			children = (
+				00D443C31B0F35380063DDD8 /* SwizzleUtilityTests.m */,
+				00D443C11B0F35380063DDD8 /* Supporting Files */,
+			);
+			path = SwizzleUtilityTests;
+			sourceTree = "<group>";
+		};
+		00D443C11B0F35380063DDD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00D443C21B0F35380063DDD8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00D443A31B0F35380063DDD8 /* SwizzleUtility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00D443C71B0F35380063DDD8 /* Build configuration list for PBXNativeTarget "SwizzleUtility" */;
+			buildPhases = (
+				00D443A01B0F35380063DDD8 /* Sources */,
+				00D443A11B0F35380063DDD8 /* Frameworks */,
+				00D443A21B0F35380063DDD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwizzleUtility;
+			productName = SwizzleUtility;
+			productReference = 00D443A41B0F35380063DDD8 /* SwizzleUtility.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00D443BC1B0F35380063DDD8 /* SwizzleUtilityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00D443CA1B0F35380063DDD8 /* Build configuration list for PBXNativeTarget "SwizzleUtilityTests" */;
+			buildPhases = (
+				00D443B91B0F35380063DDD8 /* Sources */,
+				00D443BA1B0F35380063DDD8 /* Frameworks */,
+				00D443BB1B0F35380063DDD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00D443BF1B0F35380063DDD8 /* PBXTargetDependency */,
+			);
+			name = SwizzleUtilityTests;
+			productName = SwizzleUtilityTests;
+			productReference = 00D443BD1B0F35380063DDD8 /* SwizzleUtilityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00D4439C1B0F35380063DDD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = elong;
+				TargetAttributes = {
+					00D443A31B0F35380063DDD8 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					00D443BC1B0F35380063DDD8 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 00D443A31B0F35380063DDD8;
+					};
+				};
+			};
+			buildConfigurationList = 00D4439F1B0F35380063DDD8 /* Build configuration list for PBXProject "SwizzleUtility" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00D4439B1B0F35380063DDD8;
+			productRefGroup = 00D443A51B0F35380063DDD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00D443A31B0F35380063DDD8 /* SwizzleUtility */,
+				00D443BC1B0F35380063DDD8 /* SwizzleUtilityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00D443A21B0F35380063DDD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D443B31B0F35380063DDD8 /* Main.storyboard in Resources */,
+				00D443B81B0F35380063DDD8 /* LaunchScreen.xib in Resources */,
+				00D443B51B0F35380063DDD8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D443BB1B0F35380063DDD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00D443A01B0F35380063DDD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D443D21B0F35C20063DDD8 /* UIViewController+Swizzle.m in Sources */,
+				00D443B01B0F35380063DDD8 /* ViewController.m in Sources */,
+				00D443AD1B0F35380063DDD8 /* AppDelegate.m in Sources */,
+				00D443AA1B0F35380063DDD8 /* main.m in Sources */,
+				00D443CF1B0F35690063DDD8 /* SwizzleUtility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D443B91B0F35380063DDD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D443C41B0F35380063DDD8 /* SwizzleUtilityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00D443BF1B0F35380063DDD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00D443A31B0F35380063DDD8 /* SwizzleUtility */;
+			targetProxy = 00D443BE1B0F35380063DDD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00D443B11B0F35380063DDD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00D443B21B0F35380063DDD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00D443B61B0F35380063DDD8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00D443B71B0F35380063DDD8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00D443C51B0F35380063DDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00D443C61B0F35380063DDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00D443C81B0F35380063DDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwizzleUtility/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00D443C91B0F35380063DDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwizzleUtility/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		00D443CB1B0F35380063DDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwizzleUtilityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwizzleUtility.app/SwizzleUtility";
+			};
+			name = Debug;
+		};
+		00D443CC1B0F35380063DDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwizzleUtilityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwizzleUtility.app/SwizzleUtility";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00D4439F1B0F35380063DDD8 /* Build configuration list for PBXProject "SwizzleUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00D443C51B0F35380063DDD8 /* Debug */,
+				00D443C61B0F35380063DDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00D443C71B0F35380063DDD8 /* Build configuration list for PBXNativeTarget "SwizzleUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00D443C81B0F35380063DDD8 /* Debug */,
+				00D443C91B0F35380063DDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00D443CA1B0F35380063DDD8 /* Build configuration list for PBXNativeTarget "SwizzleUtilityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00D443CB1B0F35380063DDD8 /* Debug */,
+				00D443CC1B0F35380063DDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00D4439C1B0F35380063DDD8 /* Project object */;
+}
