@@ -30,7 +30,7 @@
 
 /* Begin PBXFileReference section */
 		00D443A41B0F35380063DDD8 /* SwizzleUtility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwizzleUtility.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		00D443A81B0F35380063DDD8 /* Info.plis */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Info.plis; sourceTree = "<group>"; };
+		00D443A81B0F35380063DDD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00D443A91B0F35380063DDD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		00D443AB1B0F35380063DDD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		00D443AC1B0F35380063DDD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		00D443B41B0F35380063DDD8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		00D443B71B0F35380063DDD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		00D443BD1B0F35380063DDD8 /* SwizzleUtilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwizzleUtilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		00D443C21B0F35380063DDD8 /* Info.plis */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Info.plis; sourceTree = "<group>"; };
+		00D443C21B0F35380063DDD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00D443C31B0F35380063DDD8 /* SwizzleUtilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwizzleUtilityTests.m; sourceTree = "<group>"; };
 		00D443CD1B0F35690063DDD8 /* SwizzleUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzleUtility.h; sourceTree = "<group>"; };
 		00D443CE1B0F35690063DDD8 /* SwizzleUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwizzleUtility.m; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 		00D443A71B0F35380063DDD8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				00D443A81B0F35380063DDD8 /* Info.plis */,
+				00D443A81B0F35380063DDD8 /* Info.plist */,
 				00D443A91B0F35380063DDD8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -124,7 +124,7 @@
 		00D443C11B0F35380063DDD8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				00D443C21B0F35380063DDD8 /* Info.plis */,
+				00D443C21B0F35380063DDD8 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
